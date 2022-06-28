@@ -13,7 +13,7 @@ app.use(require('./routes'));
 
 // Connecting to mongoose
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/social-network-api', {
-  useFindAndModify: false,
+  //useFindAndModify: false,
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
@@ -21,4 +21,6 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/social-network-
 // mongoose queries
 mongoose.set('debug', true);
 
-app.listen(PORT, () => console.log(` *|*|*|*|*|*|*|* Connected on localhost:${PORT}  *|*|*|*|*|*|*|* `));
+app.listen(PORT, () => console.log(` ************** Connected on localhost:${PORT} ************* `));
+
+//app.listen(PORT, () => console.log(` *|*|*|*|*|*|*|* Connected on localhost:${PORT}  *|*|*|*|*|*|*|* `));
