@@ -16,7 +16,7 @@ This application acts as an API for a social network web application where users
 
 ### Pulling the repository from Git 
 
-If you would like to acess the source code, please navigate to the following public Github repository [Github Repository](). 
+If you would like to acess the source code, please navigate to the following public Github repository [Github Repository](https://github.com/JemimaSiddiqui/Social-Network-API-by-Jemima-Siddiqui.git). 
 
 * Clone the repository to your local desktop using the following steps:
 
@@ -41,6 +41,10 @@ If you would like to acess the source code, please navigate to the following pub
 
 ## Usage
 In order to see a demonstration of this application, navigate to the following link and download the video: 
+- [Part 1 of demo video](https://www.youtube.com/watch?v=zT32H7ce8ho)
+- [Part 2 of demo video](https://www.youtube.com/watch?v=47bexRuL9hk)
+
+If you choose to run the application on your local device, follow the steps below: 
 
 * Step 1: Change into the directory of the application 
 * Step 2: Install npm 
